@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &162490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 406318}
+  - component: {fileID: 4832119625189957005}
+  - component: {fileID: 4766136191410468948}
+  - component: {fileID: 6072001329187396098}
+  m_Layer: 16
+  m_Name: Clip
+  m_TagString: Medium
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &406318
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162490}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -27.37594, y: 25.148905, z: -417.6587}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &4832119625189957005
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162490}
+  m_Material: {fileID: 13400000, guid: 982ce7da806d81f4696fd19587f665e6, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.26072693, y: 0.1230392, z: 0.34654793}
+  m_Center: {x: 0.005432129, y: 0.0020552278, z: 0.00010725856}
+--- !u!114 &4766136191410468948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: UBLRP_Draw
+  AuthorityOnly: 1
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6072001329187396098}
+        m_MethodName: SpawnDefaultEffect
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6072001329187396098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b0c7a1890d68343a53b847ecace7a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultEffectAssetGuid: 86a6b17ca779455db38623e6d2ee65a2
+  AuthorityOnly: 1
+  Reliable: 1
+  OverrideTransform: {fileID: 0}

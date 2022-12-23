@@ -92,8 +92,8 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 32
+  MinDistance: 3
+  MaxDistance: 5
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -260,10 +260,10 @@ Animation:
   m_GameObject: {fileID: 1000010530992810}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400002, guid: d74984f2dd47848408ac1021a534e6ac, type: 3}
+  m_Animation: {fileID: 7400000, guid: b8502ea1c3501844c8310fe2e42762b5, type: 2}
   m_Animations:
-  - {fileID: 7400002, guid: d74984f2dd47848408ac1021a534e6ac, type: 3}
-  - {fileID: 7400004, guid: d74984f2dd47848408ac1021a534e6ac, type: 3}
+  - {fileID: 7400000, guid: b8502ea1c3501844c8310fe2e42762b5, type: 2}
+  - {fileID: 7400000, guid: b7901182011f33a4aa0e17d0d85a76da, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -317,7 +317,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c126f3ac99454484a80ccdb58e1f6299, type: 2}
+  - {fileID: 2100000, guid: 3647bfa979e02f34fbc96a0fc45d46f0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -342,7 +342,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: d74984f2dd47848408ac1021a534e6ac, type: 3}
+  m_Mesh: {fileID: -5495902117074765545, guid: 9a7475bdfef926646a896f76d6b91094, type: 3}
   m_Bones:
   - {fileID: 4000010834203696}
   m_BlendShapeWeights: []
@@ -381,7 +381,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000013142116320}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.000045776367, y: -90.00001, z: 180}
 --- !u!65 &65000010481786804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -393,8 +393,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.75, y: 2.45, z: 0.25}
-  m_Center: {x: 0, y: 1.125, z: 0}
+  m_Size: {x: 2.0433042, y: 0.52404726, z: 1.2673317}
+  m_Center: {x: -0.097074, y: -0.29616255, z: -0.0038829315}
 --- !u!1 &1000014037794704
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +425,7 @@ Transform:
   - {fileID: 4000010834203696}
   m_Father: {fileID: 4000011832907296}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &3100799451320026470
 GameObject:
   m_ObjectHideFlags: 0

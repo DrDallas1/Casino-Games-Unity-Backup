@@ -1,33 +1,40 @@
 fileFormatVersion: 2
-guid: d83fae2adbffa7e46a741bd1585f36cb
+guid: a5aed305ef8beeb4ba6673902699ada6
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable:
   - first:
-      74: 2264077025236624520
-    second: Armature.001|Armature.001Action
+      74: -622918166900665658
+    second: Skeleton|Armature.001Action
   - first:
-      74: 321854807225151480
-    second: Armature.001|SphereAction
+      74: -2779685211268702209
+    second: Skeleton|ArmatureAction
   - first:
-      74: -3100628101864396295
-    second: Sphere|SphereAction
+      74: 8329732208871682656
+    second: Skeleton|SphereAction
+  - first:
+      74: 6778394905120881229
+    second: Skeleton|SphereAction.001
+  - first:
+      74: 1504494366829233666
+    second: Ball|ArmatureAction
+  - first:
+      74: 1876565967461283780
+    second: Ball|SphereAction
+  - first:
+      74: -5676795709724370724
+    second: Ball|SphereAction.001
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: JTex
-    second: {fileID: 2100000, guid: 51375da7d90571c4cb321019758c4835, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: No Name
-    second: {fileID: 2100000, guid: 2b3e3221ef4c5e24dbc5e36a91f1dc0c, type: 2}
+    second: {fileID: 2100000, guid: 35fd7f12977dba1458a9d71eeab39539, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roulette.001
-    second: {fileID: 2100000, guid: 6ca8f9f7897ced843906f041329209f5, type: 2}
+    second: {fileID: 2100000, guid: bd86ddb0140d632448c22806f1602010, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -54,7 +61,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Skeleton|Armature.001Action
+      takeName: Skeleton|Armature.001Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -112,7 +148,7 @@ ModelImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 1
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
   additionalBone: 0

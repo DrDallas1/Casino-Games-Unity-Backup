@@ -76,12 +76,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventId: R1_Unlock
+  EventId: R1_Spun
   AuthorityOnly: 0
   OnTriggered:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1111690332757178502}
+        m_TargetAssemblyTypeName: 
         m_MethodName: SetDefaultTimer
         m_Mode: 1
         m_Arguments:
@@ -108,6 +109,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 869221930950509961}
+        m_TargetAssemblyTypeName: 
         m_MethodName: GotoEnabledState
         m_Mode: 1
         m_Arguments:
@@ -118,7 +120,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  DefaultDuration: 10
+  DefaultDuration: 50
   DefaultLooping: 0
 --- !u!1 &1324489371585319458
 GameObject:
@@ -166,6 +168,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -284,6 +287,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3043495496479716196}
+        m_TargetAssemblyTypeName: 
         m_MethodName: SetDefaultTimer
         m_Mode: 1
         m_Arguments:
@@ -310,6 +314,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 869221930950509961}
+        m_TargetAssemblyTypeName: 
         m_MethodName: GotoDisabledState
         m_Mode: 1
         m_Arguments:

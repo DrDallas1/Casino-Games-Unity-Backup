@@ -405,30 +405,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EventId: R1_Unlock
+  EventId: R1_Spun
   AuthorityOnly: 0
   OnTriggered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 869221930950509961}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: GotoDisabledState
+      - m_Target: {fileID: 3224205266053649485}
+        m_TargetAssemblyTypeName: SDG.Unturned.TimerEventHook, Assembly-CSharp
+        m_MethodName: SetDefaultTimer
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -448,8 +436,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnTimerTriggered:
     m_PersistentCalls:
-      m_Calls: []
-  DefaultDuration: 0
+      m_Calls:
+      - m_Target: {fileID: 869221930950509961}
+        m_TargetAssemblyTypeName: SDG.Unturned.InteractableObjectBinaryStateEventHook,
+          Assembly-CSharp
+        m_MethodName: GotoDisabledState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  DefaultDuration: 55
   DefaultLooping: 0
 --- !u!1 &7680342540211343835
 GameObject:

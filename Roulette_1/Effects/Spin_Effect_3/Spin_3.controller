@@ -28,7 +28,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BloomeryOutput
+  m_Name: Spin_3
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -64,7 +64,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a40d9c0d4e48c3a4f95dc4b0b2878378, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2e156057ab13028448b13300b55a452b, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

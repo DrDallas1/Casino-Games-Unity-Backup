@@ -78,6 +78,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -370,6 +371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373043133458817462}
   - component: {fileID: 296040107117252824}
+  - component: {fileID: 3224205266053649485}
   m_Layer: 16
   m_Name: Code
   m_TagString: Medium
@@ -409,6 +411,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 869221930950509961}
+        m_TargetAssemblyTypeName: 
         m_MethodName: GotoDisabledState
         m_Mode: 1
         m_Arguments:
@@ -419,6 +422,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3224205266053649485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371741316288100847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78740986f845bd943b99707a83731520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTimerTriggered:
+    m_PersistentCalls:
+      m_Calls: []
+  DefaultDuration: 0
+  DefaultLooping: 0
 --- !u!1 &7680342540211343835
 GameObject:
   m_ObjectHideFlags: 0

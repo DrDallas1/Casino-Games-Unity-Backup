@@ -203,7 +203,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  DefaultDuration: 25
+  DefaultDuration: 30
   DefaultLooping: 0
 --- !u!1 &3008287343373209066
 GameObject:
@@ -279,7 +279,7 @@ LODGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4114181018840404160}
   serializedVersion: 2
-  m_LocalReferencePoint: {x: 1.1572554, y: -0.06403303, z: -3.1869092}
+  m_LocalReferencePoint: {x: 1.1572309, y: -0.064036846, z: -3.186913}
   m_Size: 9.403958
   m_FadeMode: 0
   m_AnimateCrossFading: 0
@@ -349,6 +349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3279364279583368283}
   - component: {fileID: 4167450007912249743}
+  - component: {fileID: 5059123728830031514}
   - component: {fileID: 4537461976268843066}
   - component: {fileID: 3848899838477525411}
   - component: {fileID: 944840182132411442}
@@ -392,6 +393,34 @@ MonoBehaviour:
   AuthorityOnly: 0
   Reliable: 1
   OverrideTransform: {fileID: 2422805172059024134}
+--- !u!114 &5059123728830031514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spun
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 11097d3742cb4907b6ab7528a480d81d
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &4537461976268843066
 MonoBehaviour:
   m_ObjectHideFlags: 0

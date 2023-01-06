@@ -325,7 +325,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  DefaultDuration: 10
+  DefaultDuration: 5
   DefaultLooping: 0
 --- !u!1 &4114181018840404160
 GameObject:

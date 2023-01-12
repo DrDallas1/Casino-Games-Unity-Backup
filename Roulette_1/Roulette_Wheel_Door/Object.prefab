@@ -355,6 +355,39 @@ GameObject:
   - component: {fileID: 944840182132411442}
   - component: {fileID: 7785437122554553655}
   - component: {fileID: 8579012011078072681}
+  - component: {fileID: 1651674160618141004}
+  - component: {fileID: 1024784735121329784}
+  - component: {fileID: 3914006154333031789}
+  - component: {fileID: 6348479283868557636}
+  - component: {fileID: 8923458339090684535}
+  - component: {fileID: 1447305883516361639}
+  - component: {fileID: 4291236812192435825}
+  - component: {fileID: 6212452086371585564}
+  - component: {fileID: 8049310563992740283}
+  - component: {fileID: 6877152491852378097}
+  - component: {fileID: 7109280986534968272}
+  - component: {fileID: 8856893326019780721}
+  - component: {fileID: 815892235570480229}
+  - component: {fileID: 4852502320512581876}
+  - component: {fileID: 8544465198216979752}
+  - component: {fileID: 5592264658988742452}
+  - component: {fileID: 7577433344291775340}
+  - component: {fileID: 3316921779517014009}
+  - component: {fileID: 3267196811073987101}
+  - component: {fileID: 8856852614015927867}
+  - component: {fileID: 1433427787145866672}
+  - component: {fileID: 6686925355630387547}
+  - component: {fileID: 2663268542702632712}
+  - component: {fileID: 5829461587710537138}
+  - component: {fileID: 4626079773413946585}
+  - component: {fileID: 5939844431109623134}
+  - component: {fileID: 2832747859906781898}
+  - component: {fileID: 2499687754624922982}
+  - component: {fileID: 6573447057517898996}
+  - component: {fileID: 6318748831402412173}
+  - component: {fileID: 1082092461789220420}
+  - component: {fileID: 5909930715214263006}
+  - component: {fileID: 4857952879072984632}
   m_Layer: 0
   m_Name: EffectSpawner(Spin 1-5)
   m_TagString: Untagged
@@ -559,6 +592,930 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 339fa8a95366440e85df7593f2d70816
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1651674160618141004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_6
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0ad09bdc72454b3580e188d402d2e965
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1024784735121329784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_7
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 382fa03c75b14f9185f8c4603c527e0d
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3914006154333031789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_8
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 175e2208ec844b7eaac36f242aa9c0fe
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6348479283868557636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_9
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1ebd6eb407ac47769b1cfdc4e708df9a
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8923458339090684535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_10
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 907d60f57b434dbeba3dbec982ffb55d
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1447305883516361639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_11
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 4a55fd62c1f44ccdb603f607c1b17905
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4291236812192435825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_12
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 42f1b3ae7d6d488ca2dbf9e94d080b3a
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6212452086371585564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_13
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 8efd281195b74a6e890f9f637974f973
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8049310563992740283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_14
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 4b3810c95d1c450dacc06a310fe5585b
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6877152491852378097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_15
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: b3ac6f34bdfc4ca9a91df0a382f79c5a
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7109280986534968272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_16
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 5c64470a3ddb49a8838fce478689fff3
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8856893326019780721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_17
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: f68d3ed9273e455fb16015c97c6c3665
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &815892235570480229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_18
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 481d62d394b5493681f6a70d06a23065
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4852502320512581876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_19
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: b107529c47384536b96bd3ecb9f75e27
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8544465198216979752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_20
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 8c7170156f8042dc9c2ee988c486e061
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5592264658988742452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_21
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: f76252c5f31b45b7aa9022828cd69aa3
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &7577433344291775340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_22
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 691017032520495d9d37a80f1b12f87c
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3316921779517014009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_23
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 944fea6d27044e51b3cc7649a71011b6
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3267196811073987101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_24
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 24c23f9091754318887664845a8627c9
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8856852614015927867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_25
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: e7830efd5ea84c7a9c3b0c45d1cae380
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1433427787145866672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_26
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 16040504e5fe43e2b570aff498594e6b
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6686925355630387547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_27
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: c424b00924e645d7992cf082689d1cb2
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2663268542702632712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_28
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 85d3d0cb358945fe8528f2addac122e2
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5829461587710537138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_29
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 9849fc9bd7da423b8ebb75dd78b5d630
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4626079773413946585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_30
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 9214cfe3a5a24b06b0f24a045a0101a6
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5939844431109623134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_31
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 34f7714d5ca148b9860cc42d79d5d361
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2832747859906781898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_32
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2cbf0ad31c7b42c5952eb58886e0e2bc
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2499687754624922982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_33
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: eb15b5c8f85246dba5d89ca574a6457e
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6573447057517898996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_34
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: f4ffa449664a4b4b8f6e2b26f842e981
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6318748831402412173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_35
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 8f038fb125fc40e5878ffb25d898460c
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1082092461789220420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_36
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 38b626ccdf0b4632adcb83942833f603
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &5909930715214263006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_37
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 212e645f90fe441b9e6a5be64213adc1
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4857952879072984632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7084653897764458741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a452a3d8f7598349a90289ac3a0d802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventId: R1_Spin_38
+  AuthorityOnly: 0
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4167450007912249743}
+        m_MethodName: SpawnEffect
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 6f9c999065184f23a2cf71b8b2e86a51
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &7371741316288100847

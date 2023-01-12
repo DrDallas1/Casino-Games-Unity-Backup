@@ -28,7 +28,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Spin_6
+  m_Name: Spin_12
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -64,7 +64,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -4507876100716979677, guid: 22f49c3cda594f14da2c59cc7bc5448a,
+  m_Motion: {fileID: -8239684396312886626, guid: 22f49c3cda594f14da2c59cc7bc5448a,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 

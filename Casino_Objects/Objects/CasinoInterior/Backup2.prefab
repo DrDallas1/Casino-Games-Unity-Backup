@@ -60,11 +60,11 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 5488934df69169543a0102a811846edd, type: 2}
-  - {fileID: 2100000, guid: caf49828df0a41a4cbef4c3b24f4bf0f, type: 2}
+  - {fileID: -199608319807042347, guid: 788e31ee881f3bd4eb6a0850c9500bac, type: 3}
   - {fileID: 2100000, guid: b46bb9e1654a4b34089e03aa8c949cb1, type: 2}
   - {fileID: 2100000, guid: 19e79b521badeab45aff5a30998cc136, type: 2}
   - {fileID: -199608319807042347, guid: 788e31ee881f3bd4eb6a0850c9500bac, type: 3}
-  - {fileID: 2100000, guid: 5488934df69169543a0102a811846edd, type: 2}
+  - {fileID: 2100000, guid: 4a5017ab50c63064d825045694a5caf7, type: 2}
   - {fileID: 2100000, guid: 19e79b521badeab45aff5a30998cc136, type: 2}
   - {fileID: -199608319807042347, guid: 788e31ee881f3bd4eb6a0850c9500bac, type: 3}
   - {fileID: 2100000, guid: 19e79b521badeab45aff5a30998cc136, type: 2}
@@ -76,8 +76,8 @@ MeshRenderer:
   - {fileID: 2100000, guid: 19e79b521badeab45aff5a30998cc136, type: 2}
   - {fileID: -199608319807042347, guid: 788e31ee881f3bd4eb6a0850c9500bac, type: 3}
   - {fileID: -199608319807042347, guid: 788e31ee881f3bd4eb6a0850c9500bac, type: 3}
-  - {fileID: 2100000, guid: 5488934df69169543a0102a811846edd, type: 2}
-  - {fileID: 2100000, guid: 5488934df69169543a0102a811846edd, type: 2}
+  - {fileID: 2100000, guid: 4a5017ab50c63064d825045694a5caf7, type: 2}
+  - {fileID: -199608319807042347, guid: 788e31ee881f3bd4eb6a0850c9500bac, type: 3}
   - {fileID: -199608319807042347, guid: 788e31ee881f3bd4eb6a0850c9500bac, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 400006}
   - component: {fileID: 20500000}
   m_Layer: 15
-  m_Name: Object
+  m_Name: Backup2
   m_TagString: Large
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,7 +270,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.9019608, b: 0.42745098, a: 1}
-  m_Intensity: 3
+  m_Intensity: 4.3
   m_Range: 120
   m_SpotAngle: 110.998024
   m_InnerSpotAngle: 1

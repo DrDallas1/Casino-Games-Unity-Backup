@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 788e31ee881f3bd4eb6a0850c9500bac
+guid: e031f2a21ec705a49bad91cf91ac51bd
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,8 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: JTex
-    second: {fileID: 2100000, guid: 51375da7d90571c4cb321019758c4835, type: 2}
+      name: Material.005
+    second: {fileID: 2100000, guid: 4f5ddc4b8d94b0b4cb5391b13464557f, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -50,7 +50,7 @@ ModelImporter:
     importLights: 0
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -89,7 +89,7 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1

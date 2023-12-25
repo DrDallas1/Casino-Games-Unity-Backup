@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 20500000}
   - component: {fileID: 6799002478507576812}
   - component: {fileID: 4651768719012914304}
-  - component: {fileID: 972516923206884661}
-  - component: {fileID: 2662297795823513924}
   m_Layer: 12
   m_Name: Throwable
   m_TagString: Debris
@@ -86,65 +84,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &972516923206884661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6e9242e5cb8b78429e422f41de137fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnEnabled:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2662297795823513924}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SetDefaultTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnDisabled:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &2662297795823513924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78740986f845bd943b99707a83731520, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnTimerTriggered:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4376903492885590648}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  DefaultDuration: 5
-  DefaultLooping: 0
 --- !u!1 &100004
 GameObject:
   m_ObjectHideFlags: 0
